@@ -2,13 +2,7 @@
 
 [//]: # (Image References)
 
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
+[image1]: ./Readme_images/autonomous.gif "Autonomous Driving"
 
 
 ##  Pipeline
@@ -85,5 +79,5 @@ For training, I used mean squared error for the loss function since we are deali
 ## Step 4- Autonomous mode testing in Simulator
 
 The model is tested on the Lake-side track by running the car in autonomous mode. One of the most problematic areas was sharp left turn after the bridge with a dirt pavement. The car repetedly failed to stay on road and follow the dirt road. Increasing the dropout layer probability seems to have made the algorithm more robost and the car was finally able to complete the track without any problem.
-
+![Car running autonomously on a virtual track][image1]
 ---
