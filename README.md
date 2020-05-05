@@ -2,7 +2,7 @@
 
 [//]: # (Image References)
 
-[image1]: ./Readme_images/autonomous.gif "Autonomous Driving"
+[image1]: ./Readme_images/autonomous_speeded.gif "Autonomous Driving"
 
 
 ##  Pipeline
