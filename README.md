@@ -1,10 +1,5 @@
 # Behavioral Cloning for Self Driving Cars 
 
-[//]: # (Image References)
-
-[image1]: ./Readme_images/autonomous_speeded.gif "Autonomous Driving"
-
-
 ##  Pipeline
 
 The goals / steps of this project are the following:
@@ -12,6 +7,8 @@ The goals / steps of this project are the following:
 * Build, a convolution neural network in Keras that predicts steering angles from images
 * Train and validate the model with a training and validation set
 * Test that the model successfully drives around track one without leaving the road
+
+![Virtual Track](Readme_images/autonomous1.png)
 
 The autonomous car takes camera images of the front view and decide the optimum steering angle according to the model. The model is inspired from [NVIDIA's deep learning CNN](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) . [Udacity's self driving car simulator environment](https://github.com/udacity/self-driving-car-sim) is used for this project. The main files included in the project are:
 * `model.py` which contains code to import data, augment data, create a model and train it.
@@ -80,5 +77,5 @@ For training, I used mean squared error for the loss function since we are deali
 
 The model is tested on the Lake-side track by running the car in autonomous mode. One of the most problematic areas was sharp left turn after the bridge with a dirt pavement. The car repetedly failed to stay on road and follow the dirt road. Increasing the dropout layer probability seems to have made the algorithm more robost and the car was finally able to complete the track without any problem.
 
-![Car running autonomously on a virtual track][image1]
+![Car running autonomously on a virtual track](Readme_images/autonomous_speeded.gif)
 ---
