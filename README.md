@@ -79,3 +79,6 @@ The model is tested on the Lake-side track by running the car in autonomous mode
 
 ![Car running autonomously on a virtual track](Readme_images/autonomous_speeded.gif)
 ---
+
+## References
+This project is submitted as partial fulfillment of the Udacity's Self-Driving Car Engineer Nanodegree program. The helper code is available [here](https://github.com/udacity/CarND-Behavioral-Cloning-P3).
